@@ -26,12 +26,6 @@ class February {
     this.days = 28;
     this.leapyear = 1;
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
       date: null,
       name: "Washington's Birthday" ,
       description: "American federal holiday marking the birthday of George Washington",
@@ -46,19 +40,7 @@ class March {
   constructor() {
     this.name = "March"
     this.days = 31
-    this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
-    }]
+    this.holidays = []
 
   }
 };
@@ -67,19 +49,7 @@ class April {
   constructor() {
     this.name = "April"
     this.days = 30
-    this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
-    }]
+    this.holidays = []
 
   }
 };
@@ -87,20 +57,14 @@ class April {
 
 class May {
   constructor() {
-    this.name = "March"
+    this.name = "May"
     this.days = 31
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
       date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
+      name : "Memorial Day",
+      description : "Dedicated to those people and animals, that have hallen in service to the United State",
       range : null,
-      occurence : "Every third Monday"
+      occurence : "Every thrid Monday"
     }]
 
   }
@@ -108,62 +72,32 @@ class May {
 
 class June {
   constructor() {
-    this.name = "March"
+    this.name = "June"
     this.days = 30
-    this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
-    }]
+    this.holidays = []
 
   }
 };
 
 class July {
   constructor() {
-    this.name = "March"
+    this.name = "July"
     this.days = 31;
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
+      date : "04",
+      name : "Independence Day",
+      description : null,
       range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
-    }]
+      occurence : null
+        }]
   }
 };
 
 class August {
   constructor() {
     this.name = "August"
-    this.days = 30
-    this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
-    }]
+    this.days = 31
+    this.holidays = []
   }
 };
 
@@ -172,17 +106,11 @@ class September {
     this.name = "September"
     this.days = 30
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
+      date : "03",
+      name : "Labor Day",
+      description : "A day for the workers",
       range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
+      occurence : null
     }]
   }
 };
@@ -192,17 +120,11 @@ class October {
     this.name = "October"
     this.days = 31
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
+      date : "08",
+      name : "Columbus Day",
+      description : "",
       range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
+      occurence : null
     }]
   }
 };
@@ -212,17 +134,17 @@ class November {
     this.name = "November"
     this.days = 30
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
-      range : null,
-      occurence : "Every first day"
-    },{
       date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
+      name : "Thanksgiving Day",
+      description : "",
       range : null,
-      occurence : "Every third Monday"
+      occurence : "Every third Thursday"
+    },{
+      date : "11",
+      name : "Veterans Day",
+      description : "",
+      range : null,
+      occurence : null
     }];
   }
 };
@@ -232,17 +154,11 @@ class Decemeber {
     this.name = "December"
     this.days = 31
     this.holidays = [{
-      date : "01",
-      name : "New Years",
-      description : "The beginning of the calander year",
+      date : "25",
+      name : "Christmas Day",
+      description : "",
       range : null,
-      occurence : "Every first day"
-    },{
-      date : null,
-      name : "Martin Luther King Day",
-      description : "American federal holiday marking the birthday of Martin Luther King Jr",
-      range : null,
-      occurence : "Every third Monday"
+      occurence : ""
     }];
   }
 };
